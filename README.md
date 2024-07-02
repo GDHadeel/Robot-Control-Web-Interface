@@ -44,3 +44,4 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 # Acknowledgments
 https://www.javatpoint.com/sql-select-last#:~:text=The%20LAST()%20function%20in,specified%20column%20of%20the%20table.
+https://freefrontend.com/css-buttons/#google_vignette

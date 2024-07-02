@@ -4,7 +4,7 @@
 This project focuses on creating a web-based control interface for a robot's movement and integrating it with a database to track commands. The system consists of two main tasks:
 
 ## Task 1: Control Page Implementation
-* Control Page (index.html):
+* Control Page ([index.html](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)):
   * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
   * Sends commands to the server using fetch() in JavaScript.
   

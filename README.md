@@ -25,7 +25,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 ![Picture2](https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/8df1d978-8f50-4ef2-aeec-acd2c1434596)
 
 
-### Technologies Used:
+### Built With:
  * Frontend: HTML, CSS (styled for responsiveness and usability).
  * Backend: PHP for server-side processing and MySQL for database management.
 

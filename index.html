@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Controller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('4.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                ' . forward . '
+                'left stop right'
+                ' . backward . ';
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .grid-container button {
+            padding: 30px;
+            font-size: 30px;
+            border: 2.5px solid black;
+            background-color: #a05b56;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .forward { grid-area: forward; }
+        .backward { grid-area: backward; }
+        .left { grid-area: left; }
+        .right { grid-area: right; }
+        .stop { grid-area: stop; }
+        button:hover {
+            background-color: #9a8351;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <button class="forward" onclick="sendCommand('forward')">Forward</button>
+        <button class="backward" onclick="sendCommand('backward')">Backward</button>
+        <button class="left" onclick="sendCommand('left')">Left</button>
+        <button class="right" onclick="sendCommand('right')">Right</button>
+        <button class="stop" onclick="sendCommand('stop')">Stop</button>
+    </div>
+
+    <script>
+        function sendCommand(command) {
+            fetch('move.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ direction: command })
+            }).then(response => {
+                if (response.ok) {
+                    console.log('Command sent:', command);
+                } else {
+                    console.error('Error sending command');
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

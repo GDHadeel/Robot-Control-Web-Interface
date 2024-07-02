@@ -35,12 +35,12 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
  * Use provided SQL queries to set up the commands table.
    
 2. Deployment:
- * Host the files (index.html, move.php, latest_command.php) on a PHP-supported web server.
+ * Host the files (index.html, move.php, list_commands.php) on a PHP-supported web server.
  * Ensure proper configuration of server environment variables (e.g., localhost, database credentials).
    
 3. Usage:
  * Access index.html to control the robot's movement.
- * Visit latest_command.php to view the latest command recorded.
+ * Visit list_commands.php to view the latest command recorded.
 
 # Acknowledgments
 https://www.javatpoint.com/sql-select-last#:~:text=The%20LAST()%20function%20in,specified%20column%20of%20the%20table.

@@ -23,6 +23,24 @@ This project focuses on creating a web-based control interface for a robot's mov
 ![Picture2](https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/8df1d978-8f50-4ef2-aeec-acd2c1434596)
 
 
+### Technologies Used:
+ * Frontend: HTML, CSS (styled for responsiveness and usability).
+ * Backend: PHP for server-side processing and MySQL for database management.
+Setup Instructions:
+Database Configuration:
+Create a MySQL database named robot_controller.
+Use provided SQL queries to set up the commands table.
+Deployment:
+Host the files (index.html, move.php, latest_command.php) on a PHP-supported web server.
+Ensure proper configuration of server environment variables (e.g., localhost, database credentials).
+Usage:
+Access index.html to control the robot's movement.
+Visit latest_command.php to view the latest command recorded.
+Future Enhancements:
+Implement real-time updates using WebSocket technology.
+Enhance security measures for data transmission and storage.
+Demo Video:
+[Insert link to your demo video showcasing the project in action.]
 
 
 # Acknowledgments

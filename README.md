@@ -3,6 +3,8 @@
 # Description
 This project focuses on creating a web-based control interface for a robot's movement and integrating it with a database to track commands. The system consists of two main tasks:
 
+https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec38166-3d0c-41a1-a984-958d2b7331f6
+
 ## Task 1: Control Page Implementation
 * Control Page ([index.html](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)):
   * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
@@ -26,22 +28,19 @@ This project focuses on creating a web-based control interface for a robot's mov
 ### Technologies Used:
  * Frontend: HTML, CSS (styled for responsiveness and usability).
  * Backend: PHP for server-side processing and MySQL for database management.
-Setup Instructions:
-Database Configuration:
-Create a MySQL database named robot_controller.
-Use provided SQL queries to set up the commands table.
-Deployment:
-Host the files (index.html, move.php, latest_command.php) on a PHP-supported web server.
-Ensure proper configuration of server environment variables (e.g., localhost, database credentials).
-Usage:
-Access index.html to control the robot's movement.
-Visit latest_command.php to view the latest command recorded.
-Future Enhancements:
-Implement real-time updates using WebSocket technology.
-Enhance security measures for data transmission and storage.
-Demo Video:
-[Insert link to your demo video showcasing the project in action.]
 
+### Setup Instructions:
+1. Database Configuration:
+ * Create a MySQL database named robot_controller.
+ * Use provided SQL queries to set up the commands table.
+   
+2. Deployment:
+ * Host the files (index.html, move.php, latest_command.php) on a PHP-supported web server.
+ * Ensure proper configuration of server environment variables (e.g., localhost, database credentials).
+   
+3. Usage:
+ * Access index.html to control the robot's movement.
+ * Visit latest_command.php to view the latest command recorded.
 
 # Acknowledgments
-https://www.youtube.com/watch?v=tIXLJM-McRA&list=LL&index=6&t=19s
+https://www.javatpoint.com/sql-select-last#:~:text=The%20LAST()%20function%20in,specified%20column%20of%20the%20table.

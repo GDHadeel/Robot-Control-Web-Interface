@@ -6,11 +6,11 @@ This project focuses on creating a web-based control interface for a robot's mov
 https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec38166-3d0c-41a1-a984-958d2b7331f6
 
 ## Task 1: Control Page Implementation
-* Control Page ([index.html](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)):
+* Control Page ([index.html](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/index.html)):
   * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
   * Sends commands to the server using fetch() in JavaScript.
 
-* Server-side Handling ([move.php](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)):
+* Server-side Handling ([move.php](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/move.php)):
   * Receives commands via POST requests.
   * Stores commands in a MySQL database (robot_controller).
 
@@ -18,7 +18,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 
 ## Task 2: Data Display Page
-* Latest Command Display ([list_commands.php](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)): 
+* Latest Command Display ([list_commands.php](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/list_commands.php)): 
  * Retrieves the latest command from the database.
  * Displays the command on a dedicated webpage.
 

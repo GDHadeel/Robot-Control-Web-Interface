@@ -5,12 +5,12 @@ This project focuses on creating a web-based control interface for a robot's mov
 
 ## Task 1: Control Page Implementation
 * Control Page (index.html):
-** Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
-** Sends commands to the server using fetch() in JavaScript.
+  * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
+  * Sends commands to the server using fetch() in JavaScript.
   
 * Server-side Handling (move.php):
-** Receives commands via POST requests.
-** Stores commands in a MySQL database (robot_controller).
+  * Receives commands via POST requests.
+  * Stores commands in a MySQL database (robot_controller).
 
 
 

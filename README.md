@@ -5,6 +5,8 @@ This project focuses on creating a web-based control interface for a robot's mov
 
 https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec38166-3d0c-41a1-a984-958d2b7331f6
 
+---
+
 ## Task 1: Control Page Implementation
 * Control Page ([index.html](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/index.html)):
   * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
@@ -16,6 +18,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 ![Picture1](https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/9f822cfb-50fa-4695-8dee-07b229d71316)
 
+---
 
 ## Task 2: Data Display Page
 * Latest Command Display ([list_commands.php](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/list_commands.php)): 
@@ -41,6 +44,8 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 3. Usage:
  * Access index.html to control the robot's movement.
  * Visit list_commands.php to view the latest command recorded.
+
+---
 
 # Acknowledgments
 https://www.javatpoint.com/sql-select-last#:~:text=The%20LAST()%20function%20in,specified%20column%20of%20the%20table.

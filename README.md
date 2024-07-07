@@ -20,7 +20,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 ---
 
-## Task 2: Data Display Page
+# Task 2: Data Display Page
 * Latest Command Display ([list_commands.php](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/list_commands.php)): 
  * Retrieves the latest command from the database.
  * Displays the command on a dedicated webpage.
@@ -28,11 +28,11 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 ![Picture2](https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/8df1d978-8f50-4ef2-aeec-acd2c1434596)
 
 
-### Built With:
+## Built With:
  * Frontend: HTML, CSS (styled for responsiveness and usability).
  * Backend: PHP for server-side processing and MySQL for database management.
 
-### Setup Instructions:
+## Setup Instructions:
 1. Database Configuration:
  * Create a MySQL database named robot_controller.
  * Use provided SQL queries to set up the commands table.

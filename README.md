@@ -1,13 +1,13 @@
 # Robot-Control-Web-Interface
 
-# Description
+## Description
 This project focuses on creating a web-based control interface for a robot's movement and integrating it with a database to track commands. The system consists of two main tasks:
 
 https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec38166-3d0c-41a1-a984-958d2b7331f6
 
 ---
 
-## Task 1: Control Page Implementation
+# Task 1: Control Page Implementation
 * Control Page ([index.html](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/index.html)):
   * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
   * Sends commands to the server using fetch() in JavaScript.
@@ -47,7 +47,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 ---
 
-# Acknowledgments
+## Acknowledgments
 https://www.javatpoint.com/sql-select-last#:~:text=The%20LAST()%20function%20in,specified%20column%20of%20the%20table.
 
 https://freefrontend.com/css-buttons/#google_vignette

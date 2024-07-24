@@ -7,7 +7,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 ---
 
-# Task 1: Control Page Implementation
+# Task 1: Build a web page to control the robot's movement direction and linking it to the database 
 * Control Page ([index.html](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/index.html)):
   * Provides a user-friendly interface with directional buttons (forward, backward, left, right, stop).
   * Sends commands to the server using fetch() in JavaScript.
@@ -20,7 +20,7 @@ https://github.com/GDHadeel/Robot-Control-Web-Interface/assets/126657301/3ec3816
 
 ---
 
-# Task 2: Data Display Page
+# Task 2: Create a web page to display stored data (last value)
 * Latest Command Display ([list_commands.php](https://github.com/GDHadeel/Robot-Control-Web-Interface/blob/main/list_commands.php)): 
  * Retrieves the latest command from the database.
  * Displays the command on a dedicated webpage.
